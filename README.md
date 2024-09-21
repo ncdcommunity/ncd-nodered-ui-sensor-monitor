@@ -98,17 +98,17 @@ With the NCD Dashboard source code copied, head back to the Node-RED node editor
 ![Screenshot from 2024-09-20 15-06-34](https://github.com/user-attachments/assets/83f15f7c-616f-4c12-8420-9804daf89e7c)
 
 
-8. And click on "Open Dashboard" button, in order to open the Dashboard in a new Web Explorer Tab:
+7. And click on "Open Dashboard" button, in order to open the Dashboard in a new Web Explorer Tab:
 
 ![Screenshot from 2024-09-20 15-06-44](https://github.com/user-attachments/assets/b40b3474-3a8a-438c-9a40-d3edc5ba5c98)
 
 
-9. You should see something like this, and as soon as a new NCD Sensor data arrive, you should see the info:
+8. You should see something like this, and as soon as a new NCD Sensor data arrive, you should see the info:
 
 
 ![Screenshot from 2024-09-20 18-20-33](https://github.com/user-attachments/assets/9fc3f53d-6f75-4941-8d41-73744307cab6)
 
-
+Example:
 
 ![Image_demo](https://github.com/user-attachments/assets/2d040d94-a826-4704-8716-2e80d667fe43)
 
