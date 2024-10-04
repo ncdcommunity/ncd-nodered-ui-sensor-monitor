@@ -2,9 +2,8 @@
 A Node-RED Dashboard tool to monitor NCD Sensors 
 
 This project is a basic subflow developed by the NCD IoT team based on Node-RED and the new Dashboard 2.0 framework, which allows you to visualize the data provided by the NCD sensors, such as MAC Address, Type, Mode, RSSI (DigiMesh), and the date and time of the last incoming message in an intuitive way.
-
-![Screenshot from 2024-09-20 19-23-48](https://github.com/user-attachments/assets/1574f162-8857-46ee-9c43-4ff4cc6f6860)
-
+#
+![ncd-ui-monitor-sensor](https://github.com/user-attachments/assets/131e6ab1-08f9-442e-8813-3935c6acd342)
 
 ## Requirements/Dependencies:
 
@@ -87,7 +86,12 @@ With the NCD Dashboard source code copied, head back to the Node-RED node editor
 
 ![Screenshot from 2024-09-20 15-05-19](https://github.com/user-attachments/assets/b0794185-94a6-41c3-b355-fd5c31d57717)
 
-![Screenshot from 2024-09-20 15-05-33](https://github.com/user-attachments/assets/b5c607fc-b6d0-45ee-a08d-d91a4bc1829d)
+
+> [!NOTE]
+> You will need to connect the output of the "Wireless Gateway" node to the input fo the "UI Monitor" node.
+
+![ncd-ui-monitor-sensor-connection](https://github.com/user-attachments/assets/d83cadd1-64d6-4e38-bc23-122cef43ffc7)
+
 
 5. This flow includes a Wireless Gateway node pre-configured with the Enterprise IIoT Gateway port, you should click on "Deploy" button in order to save and apply the changes:
 
@@ -106,13 +110,13 @@ With the NCD Dashboard source code copied, head back to the Node-RED node editor
 
 8. You should see something like this, and as soon as a new NCD Sensor data arrive, you should see the info:
 
-
-![Screenshot from 2024-09-20 19-24-31](https://github.com/user-attachments/assets/636101a0-8f12-4ad4-a01e-b25b1b41442a)
-
+![ncd-ui-monitor-sensor-1](https://github.com/user-attachments/assets/07ce0306-be7b-439c-9999-d468f7ab2d08)
 
 Example:
 
-![Screenshot from 2024-09-20 19-23-48](https://github.com/user-attachments/assets/7a642ef5-9d84-4302-be74-402f3942bfa6)
+![ncd-ui-monitor-sensor-2](https://github.com/user-attachments/assets/0552a480-b6b1-4330-a7ab-5cfce723716b)
+##
+![ncd-ui-monitor-sensor-3](https://github.com/user-attachments/assets/4c7fc41a-81df-442f-9158-b1ded6dbe632)
 
 
 _____________________________________________________________________________________
