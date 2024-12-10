@@ -3,7 +3,7 @@ A Node-RED Dashboard tool to monitor NCD Sensors
 
 This project is a basic subflow developed by the NCD IoT team based on Node-RED and the new Dashboard 2.0 framework, which allows you to visualize the data provided by the NCD sensors, such as MAC Address, Type, Mode, RSSI (DigiMesh), and the date and time of the last incoming message in an intuitive way.
 #
-![ncd-ui-monitor-sensor](https://github.com/user-attachments/assets/131e6ab1-08f9-442e-8813-3935c6acd342)
+![Screenshot from 2024-12-10 09-01-07](https://github.com/user-attachments/assets/8b7e737b-c7a2-408d-8747-4764753c4c67)
 
 ## Requirements/Dependencies:
 
@@ -110,14 +110,18 @@ With the NCD Dashboard source code copied, head back to the Node-RED node editor
 
 8. You should see something like this, and as soon as a new NCD Sensor data arrive, you should see the info:
 
-![ncd-ui-monitor-sensor-1](https://github.com/user-attachments/assets/07ce0306-be7b-439c-9999-d468f7ab2d08)
+![ncd-ui-monitor-sensor-init](https://github.com/user-attachments/assets/20ba364c-1929-4330-a2b3-2050f5faa7e4)
+
 
 Example:
+![ncd-ui-monitor-sensor-inspect](https://github.com/user-attachments/assets/3ee89848-07c0-4e66-986a-1d679ebd47e6)
 
-![ncd-ui-monitor-sensor-2](https://github.com/user-attachments/assets/0552a480-b6b1-4330-a7ab-5cfce723716b)
 ##
-![ncd-ui-monitor-sensor-3](https://github.com/user-attachments/assets/4c7fc41a-81df-442f-9158-b1ded6dbe632)
+![ncd-ui-monitor-sensor-inspect-data](https://github.com/user-attachments/assets/f1f046ab-b681-4265-82c0-ca0415e897e8)
 
+##
+
+![ncd-ui-monitor-sensor-last-transmisions-window](https://github.com/user-attachments/assets/dda638c7-a3c3-4848-8cd6-ae10362e4cce)
 
 _____________________________________________________________________________________
 © 2019-2024 National Control Devices, LLC. All rights reserved.
